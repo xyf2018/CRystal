@@ -1,0 +1,16 @@
+一些有用的 URL Schemes
+使用 ShortCut Maker 添加到桌面即可
+
+1. 手机QQ中的好友动态模块
+   mqqapi://qzone/activefeed
+   Play商店最新版的 QQ 8.2.11 依旧是TargetAPI Android 10，因此不能授予其存储权限，以禁止其在手机里拉屎。
+   但在未获取到存储权限时，QQ会在很多场景下弹出恼人的索取权限对话框，其中就包括点击“动态”Tab，准备看QQ空间的场景。
+   使用该Scheme可以直接从桌面进入好友动态，跳过恼人的对话框。
+   注意创建时安装一下QQ空间App，借用一下它的icon
+   
+   等Play商店的QQ更新了问题就可解决。或者被迫转回国内版也可以解决，因为在新版QQ中即使无存储权限也不会有恼人的对话框了。
+   
+2. 直接进入豆瓣的书影音Tab
+   douban://douban.com/subject
+   直接通过Launcher打开豆瓣App，启动的Tab是与我无关的推荐动态，需要再多点一步才能进入书影音Tab，就很烦。
+   使用该Scheme可以直接从桌面进入书影音Tab，跳过无关的首页动态。

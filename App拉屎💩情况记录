@@ -3,7 +3,8 @@
 
 1.豆瓣 com.douban.frodo Play商店版 7.5.0
   在/Android 目录下生成/.data/v224/pids 路径
-  在/Android 目录下创建同名 .data 文件可解决
+  在/Android 目录下生成/obj/.um 路径
+  在/Android 目录下创建同名文件可解决
 
 2.云闪付 com.unionpay Play商店版 9.1.1
   在/Download 目录下生成 .thumbcache_idx_McqWd0osIPezODQX95O1 文件
@@ -13,5 +14,4 @@
   在/Pictures 目录下生成 xwud 开头的.jpg 文件，似乎在唤起账号登录页面或“手机号一键登录”页面时才会生成
   一般也不需要保留它，看完电影卸载即可。此外若该文件只在账号登录时生成，那么登录成功后删除该文件即可
   
-4.曾在 /Android 目录下见到过 /obj/.um 文件（也可能是 .obj，记不清了），暂不清楚是谁生成的
-5.曾在 /DCIM 目录下见到过 /.tmfs 文件夹，不清楚在我这是谁生成的，但可确定和腾讯相关。不一定非得是鹅厂的app，如果app里使用了腾讯相关的组件也是有可能的
+4.曾在 /DCIM 目录下见到过 /.tmfs 文件夹，不清楚在我这是谁生成的，但可确定和腾讯相关。不一定非得是鹅厂的app，如果app里使用了腾讯相关的组件也是有可能的

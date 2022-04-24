@@ -1,2 +1,2 @@
 # CRystal
-Hosts for my Android phone.
+玩机所需的一些文件、记录

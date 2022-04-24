@@ -1,115 +1,89 @@
 127.0.0.1       localhost
 ::1             ip6-localhost
 
-127.0.0.1 ad.caiyunapp.com		//彩云天气
-127.0.0.1 v6-ad.ixigua.com		//彩云天气
-127.0.0.1 pgdt.ugdtimg.com		//彩云天气
-127.0.0.1 sf1-ttcdn-tos.pstatp.com	//彩云天气
-127.0.0.1 mi.gdt.qq.com		//人人影视app
-127.0.0.1 tu.cvnad.com		//人人影视app
-127.0.0.1 iadmusicmat.music.126.net	//网易云音乐
-127.0.0.1 iadmusicmatvideo.music.126.net
-127.0.0.1 iadmat.nosdn.127.net	//网易云音乐
-127.0.0.1 d3.music.126.net		//网易云音乐
-127.0.0.1 p5.music.126.net		//网易云音乐
-127.0.0.1 p6.music.126.net		//网易云音乐
-127.0.0.1 api.k.163.com		//网易云音乐
-127.0.0.1 m.k.163.com		//网易云音乐
-127.0.0.1 s1.k.126.net		//网易云音乐
-127.0.0.1 s2.k.126.net		//网易云音乐
-127.0.0.1 api.iplay.163.com		//网易云音乐
-127.0.0.1 iad.service.163.org		//网易云音乐
-127.0.0.1 unidesk.alicdn.com		//网易云音乐
-127.0.0.1 dc.sigmob.cn		//sigmob平台，不清楚功效
-127.0.0.1 iv4.gtimg.cn		//QQ个性装扮，下载好夜间模式和提示音后再添加
+//QQ
 127.0.0.1 wa.qq.com		//QQ聊天页面加号内“热图”，防止误点偷跑流量
 127.0.0.1 xmaterial.tu.qq.com		//QQ首页相机标志加载内容，防止误点偷跑流量
-127.0.0.1 wxsnsdythumb.wxs.qq.com	//微信
-127.0.0.1 wxsnsdy.wxs.qq.com	//微信
-127.0.0.1 wxa.wxs.qq.com		//微信
-127.0.0.1 pingfore.qq.com		//微信
-127.0.0.1 adsmind.gdtimg.com	//微信
-127.0.0.1 union.gdtimg.com		//微信
-127.0.0.1 optimus-ads.amap.com	//高德地图
-127.0.0.1 adimg.uve.weibo.com	//微博开屏
-127.0.0.1 sdkapp.mobile.sina.cn	//微博
-127.0.0.1 sdk.e.qq.com		//酷安
-127.0.0.1 qzs.qq.com		//酷安
-127.0.0.1 img-cdn.huami.com		//Zepp
-127.0.0.1 sta-op.douyucdn.cn		//斗鱼
-127.0.0.1 mconf.douyucdn.cn		//斗鱼
-127.0.0.1 apiv2.douyucdn.cn		//斗鱼
-127.0.0.1 gift.douyucdn.cn		//斗鱼
-127.0.0.1 venus.douyucdn.cn		//斗鱼
-127.0.0.1 rtbapi.douyucdn.cn		//斗鱼
-127.0.0.1 msg.douyu.com		//斗鱼
-127.0.0.1 capi.douyucdn.cn		//斗鱼
-127.0.0.1 dotab.douyucdn.cn		//斗鱼
-127.0.0.1 apmconfig.douyucdn.cn	//斗鱼
-127.0.0.1 accplay.douyucdn.cn	//斗鱼
-127.0.0.1 bf-japi.douyucdn.cn		//斗鱼
-127.0.0.1 bj-japi.douyucdn.cn		//斗鱼
-127.0.0.1 shark.douyucdn.cn		//斗鱼
-127.0.0.1 shark2.douyucdn.cn		//斗鱼
-127.0.0.1 apm.douyucdn.cn		//斗鱼
-127.0.0.1 www.douyu.com		//斗鱼
-127.0.0.1 mapm.douyucdn.cn		//斗鱼
-127.0.0.1 dotcounter.douyucdn.cn	//斗鱼
-127.0.0.1 dotserver.douyucdn.cn	//斗鱼
-127.0.0.1 audiosocial.douyucdn.cn	//斗鱼
-127.0.0.1 ucp.douyucdn.cn		//斗鱼
-127.0.0.1 erebor.douban.com		//豆瓣
-127.0.0.1 qnmob3.doubanio.com	//豆瓣
-127.0.0.1 amonsul.douban.com	//豆瓣
-127.0.0.1 googleads.g.doubleclick.net	//谷歌
-127.0.0.1 ulogs.umeng.com		//以下应该为普适
+//微信
+127.0.0.1 wxsnsdythumb.wxs.qq.com
+127.0.0.1 wxsnsdy.wxs.qq.com
+127.0.0.1 wxa.wxs.qq.com
+//微博
+127.0.0.1 adimg.uve.weibo.com
+127.0.0.1 sdkapp.mobile.sina.cn
+//豆瓣
+127.0.0.1 amonsul.douban.com
+127.0.0.1 market.douban.com	
+//网易云
+127.0.0.1 iadmusicmat.music.126.net
+127.0.0.1 iadmusicmatvideo.music.126.net
+//百度地图
+127.0.0.1 dss0.bdstatic.com
+127.0.0.1 map-mobile-opnimg.cdn.bcebos.com
+//Tencent系
+127.0.0.1 pingfore.qq.com
+127.0.0.1 pingma.qq.com
+127.0.0.1 qzs.qq.com
+127.0.0.1 sdk.e.qq.com
+127.0.0.1 mi.gdt.qq.com
+127.0.0.1 tdid.m.qq.com
+127.0.0.1 adsmind.gdtimg.com
+127.0.0.1 qzs.gdtimg.com
+127.0.0.1 union.gdtimg.com
+127.0.0.1 pgdt.gtimg.cn
+127.0.0.1 adsmind.ugdtimg.com
+127.0.0.1 pgdt.ugdtimg.com
+//友盟
+127.0.0.1 aaid.umeng.com
 127.0.0.1 alog.umeng.com
 127.0.0.1 ar.umeng.com
 127.0.0.1 errlog.umeng.com
 127.0.0.1 plbslog.umeng.com
-127.0.0.1 ulogs.umengcloud.com
+127.0.0.1 ulogs.umeng.com
 127.0.0.1 msg.umengcloud.com
-127.0.0.1 applog.uc.cn
+127.0.0.1 ulogs.umengcloud.com
+//阿里淘宝
 127.0.0.1 adash.man.aliyuncs.com
+127.0.0.1 gxb.mmstat.com
+127.0.0.1 audid-api.taobao.com
+127.0.0.1 amdcopen.m.taobao.com
 127.0.0.1 adashbc.ut.taobao.com
 127.0.0.1 h-adashx.ut.taobao.com
 127.0.0.1 adashxgc.ut.taobao.com
-127.0.0.1 resolver.msg.xiaomi.net
-127.0.0.1 norma-external-collect.meizu.com
-127.0.0.1 amdcopen.m.taobao.com
-127.0.0.1 sdk.api.bjshcw.com		//豆瓣发现的，不清楚是什么
-127.0.0.1 sdk.api.oaid.wocloud.cn
-127.0.0.1 audid-api.taobao.com
-127.0.0.1 g.cn.miaozhen.com
-127.0.0.1 e.cn.miaozhen.com
-127.0.0.1 pingma.qq.com
+127.0.0.1 equity.tmall.com
+//京东
+127.0.0.1 img14.360buyimg.com
+127.0.0.1 dgstatic.jd.com
+127.0.0.1 kepler.jd.com
+127.0.0.1 orbit.jd.com
+127.0.0.1 dg.k.jd.com
+127.0.0.1 mapi.m.jd.com
+//字节头条 snssdk 穿山甲
 127.0.0.1 api-access.pangolin-sdk-toutiao.com
-127.0.0.1 b-gtc.getui.com
-127.0.0.1 sdk-open-phone.getui.com
-127.0.0.1 c-hzgt2.getui.com
-127.0.0.1 sdk.conf.getui.com
-127.0.0.1 c-gtc.getui.com
-127.0.0.1 api-gi.getui.com
-127.0.0.1 cm-10-30.getui.com
-127.0.0.1 sdk.open.talk.getui.net
-127.0.0.1 sdk.open.phone.igexin.com
-127.0.0.1 sdk.open.talk.igexin.com
-127.0.0.1 sdk.open.talk.gepush.com
-127.0.0.1 pgdt.gtimg.cn
-
-127.0.0.1 sqdd.myapp.com		//QQ
-127.0.0.1 qd.myapp.com
-127.0.0.1 sola.gtimg.cn
-127.0.0.1 node6.kg.qq.com
-127.0.0.1 app.books.qq.com
-127.0.0.1 qappcenterv6.3g.qq.com
-127.0.0.1 res.tu.qq.com
-127.0.0.1 cmshow.gtimg.cn
-127.0.0.1 showv4.gtimg.cn
-127.0.0.1 down.qq.com
-127.0.0.1 mqq-plugin.qq.com
-127.0.0.1 d.url.cn
-127.0.0.1 dl.url.cn
-127.0.0.1 sngmta.qq.com
-127.0.0.1 img.tencentmusic.com
-127.0.0.1 d3g.qq.com
+127.0.0.1 api-access.pangolin-sdk-toutiao-b.com
+127.0.0.1 sf3-be-pack.pglstatp-toutiao.com
+127.0.0.1 sf6-be-pack.pglstatp-toutiao.com
+127.0.0.1 sf3-fe-tos.pglstatp-toutiao.com
+127.0.0.1 sf3-ttcdn-tos.pstatp.com
+127.0.0.1 toblog.ctobsnssdk.com
+127.0.0.1 extlog.snssdk.com
+127.0.0.1 mssdk-bu.snssdk.com
+127.0.0.1 pangolin.snssdk.com
+127.0.0.1 tbm.snssdk.com
+127.0.0.1 tnc3-bjlgy.snssdk.com
+127.0.0.1 dm.toutiao.com
+//网页相关
+127.0.0.1 cdn2.jianshu.io		//简书js
+127.0.0.1 d.douyuba.cn		//防斗鱼网页版下apk
+127.0.0.1 live.qq.com		//防斗鱼网页版跳转
+127.0.0.1 pos.baidu.com		//新浪微博PWA广告
+//其他
+127.0.0.1 googleads.g.doubleclick.net	//谷歌
+127.0.0.1 sdk.api.bjshcw.com
+127.0.0.1 norma-external-collect.meizu.com
+127.0.0.1 e.cn.miaozhen.com
+127.0.0.1 g.cn.miaozhen.com
+127.0.0.1 trace.rtbasia.com
+127.0.0.1 dc.sigmob.cn
+127.0.0.1 applog.uc.cn
+127.0.0.1 resolver.msg.xiaomi.net

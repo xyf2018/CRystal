@@ -2,4 +2,4 @@ Steam App 只是用来查看验证码的，毕竟看游戏还不如直接从网�
 Steam 的Totp算法不是标准的，而是进行了一些小修改，不过这个不重要。
 在获取Totp算法所需的 Secret 时，出现了两种方式： 
   1. 一些软件如 Aegis (安卓上一款开源的OTP管理器)和 Tray TOTP (Keepass的一款插件)，需要的是 uri 中的 secret 部分
-    例: otpauth://totp/Steam:user?secret=# 123456789ABCDEFG
+    例: otpauth://totp/Steam:user?secret=**123456789ABCDEFG**

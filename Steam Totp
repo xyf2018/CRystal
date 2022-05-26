@@ -1,0 +1,9 @@
+Steam App 只是用来查看验证码的，毕竟看游戏还不如直接从网页上看体验好。然而只为了这个验证码而再安一个App有些多余了，好在totp算法是开放的。
+Steam 的Totp算法不是标准的，而是进行了一些小修改，不过这个不重要。
+在获取Totp算法所需的 Secret 时，出现了两种方式： 
+  1. 一些软件如 Aegis (安卓上一款开源的OTP管理器)和 Tray TOTP (Keepass的一款插件)，需要的是 uri 中的 secret 部分
+    例: otpauth://totp/Steam:user?secret=123456789ABCDEFG
+  2. GitHub 上的许多代码，需要的是 shared_secret
+通过两种方式均可计算出正确的一次性验证码。
+事实上，以上两个 secret 是等价的，将 shared_secret 进行 base64 解码、将 uri 中的 secret 部分进行 base32 解码，它们的结果是一致的。
+一些网页解码工具可能会解码失败，在 python 里解就可以了。

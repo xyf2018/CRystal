@@ -12,7 +12,10 @@
 百度地图 com.baidu.BaiduMap Play商店 15.12.0 支持直接启动Activity
   推广动图 Android/data/com.baidu.BaiduMap/BaiduMap/cache/AdvertImageCache
   开屏广告 data/data/com.baidu.BaiduMap/files/AdvertImageCache
-前程无忧 com.job.android 官网下载 10.8.5 不支持直接启动Activity   ？？似乎在Root之后app不能正常启动
+
+前程无忧 com.job.android 官网下载 10.8.5 不支持直接启动Activity ！！Root之后app不能正常启动！！
   Android/data/com.job.android/cache/51job-image-cache/open
+  无需root，直接同名文件占用open文件夹的位置即可
+
 智联招聘 com.zhaopin.social 官网下载 8.5.11 支持直接启动Activity
   data/data/com.zhaopin.social/cache/image_manager_disk_cache

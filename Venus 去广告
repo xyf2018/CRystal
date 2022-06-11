@@ -19,3 +19,4 @@
 
 智联招聘 com.zhaopin.social 官网下载 8.5.11 支持直接启动Activity
   data/data/com.zhaopin.social/cache/image_manager_disk_cache
+  限制后会影响正常使用，app中很多图片加载不出来，建议直接启动Activity

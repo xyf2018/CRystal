@@ -73,7 +73,6 @@
 127.0.0.1 cdn2.jianshu.io		//简书js
 127.0.0.1 d.douyuba.cn		//防斗鱼网页版下apk
 127.0.0.1 live.qq.com		//防斗鱼网页版跳转
-127.0.0.1 pos.baidu.com		//新浪微博PWA广告
 //其他
 127.0.0.1 googleads.g.doubleclick.net
 127.0.0.1 pagead2.googlesyndication.com

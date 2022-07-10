@@ -16,7 +16,6 @@
 127.0.0.1 iadmusicmatvideo.music.126.net
 //百度地图
 127.0.0.1 dss0.bdstatic.com
-127.0.0.1 map-mobile-opnimg.cdn.bcebos.com
 //Tencent系
 127.0.0.1 pingfore.qq.com
 127.0.0.1 pingma.qq.com

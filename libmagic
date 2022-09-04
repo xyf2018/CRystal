@@ -1,0 +1,2 @@
+解决 Windows 下 Python 找不到 libmagic/python-magic 的问题：
+将 site-packages\magic\libmagic 加入环境变量

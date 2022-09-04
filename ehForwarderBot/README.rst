@@ -38,7 +38,7 @@ efb-qq-plugin-go-cqhttp 是 efb-qq-slave 的插件，需要配合 efb-qq-slave �
       servers:
         # HTTP 通信设置
         - http:
-            # HTTP监听地址
+            # 运行 go-cqhttp 机器的IP地址
             address: 0.0.0.0:5700 
             # 反向 HTTP 超时时间, 单位秒
             # 最小值为 5，小于 5 将会忽略本项设置
@@ -47,7 +47,7 @@ efb-qq-plugin-go-cqhttp 是 efb-qq-slave 的插件，需要配合 efb-qq-slave �
               <<: *default # 引用默认中间件
             # 反向 HTTP POST 地址列表
             post:
-              - url: 'http://127.0.0.1:8000' # 地址
+              - url: 'http://127.0.0.1:8000' # 运行 efb 机器的IP地址
                 secret: ''                   # 密钥保持为空
 
 3. 运行 go-cqhttp ``./go-cqhttp``
@@ -69,8 +69,8 @@ efb-qq-plugin-go-cqhttp 是 efb-qq-slave 的插件，需要配合 efb-qq-slave �
        GoCQHttp:
            type: HTTP                        # 指定 efb-qq-plugin-go-cqhttp 与 GoCQHttp 通信的方式 现阶段仅支持 HTTP
            access_token:
-           api_root: http://127.0.0.1:5700/  # GoCQHttp API接口地址/端口
-           host: 127.0.0.1                   # efb-qq-slave 所监听的地址用于接收消息
+           api_root: http://127.0.0.1:5700/  # 运行 go-cqhttp 机器的IP地址
+           host: 127.0.0.1                   # 运行 efb 机器的IP地址
            port: 8000                        # 同上
 
 3. 启动 ``ehforwarderbot``，大功告成！

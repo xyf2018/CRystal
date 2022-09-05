@@ -1,0 +1,4 @@
+电脑可同时跑go-cqhttp, ehforwarderbot和clash。efb在电脑上的安装可能会比较痛苦，但安装好了就行。
+注意clash不要开system proxy，在efb-telegram-master中配置代理即可。
+go-cqhttp和efb-qq-slave-cqhttp的配置按照开源仓的说明即可 https://github.com/ehForwarderBot/efb-qq-plugin-go-cqhttp
+在线检查借助QQ的自动回复功能。电脑QQ登录小号并设为离开/忙碌/请勿打扰，如果向小号成功发送了信息，则会收到回复。

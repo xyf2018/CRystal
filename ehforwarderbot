@@ -2,3 +2,7 @@
 注意clash不要开system proxy，在efb-telegram-master中配置代理即可。
 go-cqhttp和efb-qq-slave-cqhttp的配置按照开源仓的说明即可 https://github.com/ehForwarderBot/efb-qq-plugin-go-cqhttp
 在线检查借助QQ的自动回复功能。电脑QQ登录小号并设为离开/忙碌/请勿打扰，如果向小号成功发送了信息，则会收到回复。
+
+Windows 下 efb-qq-slave-plugin-cqhttp 不能处理收到的语音消息。于是直接直接在WSL中运行
+WSL由于是Linux系统，所以安装过程也是非常顺畅，基本没有遇到任何障碍，即使有障碍也都可以通过搜索引擎快速解决。
+目前WSL运行EFB是最稳定的，go-cqhttp在Windows下或者Linux下都可以，Clash不要开system proxy，在ETM中配置代理即可

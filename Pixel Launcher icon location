@@ -1,0 +1,3 @@
+Pixel Launcher 里所有图标的存放位置，包括app图标；shortcuts图标以及快捷方式图标
+/data/system_ce/0/shortcut_service/bitmaps/
+然后根据应用包名查找

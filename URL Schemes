@@ -5,3 +5,8 @@
    douban://douban.com/subject
    直接通过Launcher打开豆瓣App，启动的Tab是与我无关的推荐动态，需要再多点一步才能进入书影音Tab，就很烦。
    使用该Scheme可以直接从桌面进入书影音Tab，跳过无关的首页动态。
+2. 使用支付宝内置浏览器打开链接🔗
+   alipays://platformapi/startapp?appId=20000067&url=URLencode后的链接
+   作为一个有轻度赛博洁癖的人，大多数情况下都是希望能让链接直接在浏览器中打开，干掉国产无良app的内置浏览器。
+   但有的情况下链接必须要在支付宝里打开，这个时候就可以用上了
+   

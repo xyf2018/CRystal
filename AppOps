@@ -1,0 +1,27 @@
+最开始接触AppOps应该是Android Q(10)时代，那时的需求是应用存储权限的“读”和“写”分开控制：允许READ_EXTERNAL_STORAGE, 但不允许WRITE_EXTERNAL_STORAGE, 以保证存储的整洁。
+但从Android 11开始两项权限做了统一，不再允许只写不读或者只读不写。
+
+慢慢的又有新需求出现了：使用浏览器访问网页时经常会被以百度贴吧为首的一些毒瘤产品“强奸”剪贴板，此外也有些app很喜欢二话不说直接获取剪贴板中的内容。
+于是就催生出控制剪贴板读写权限的需求：READ_CLIPBOARD和WRITE_CLIPBOARD。该控制到目前为止依然是有效的。
+
+有的app在设计中加入了很多“振动”，切换Tab——振动，进入选项——振动，令人摸不着头脑。使用VIBRATE可以控制app能否触发振动。
+
+有的app经常发很多对用户毫无意义的toast，可以通过TOAST_WINDOW控制app能否发toast。
+但没记错的话从Android 12开始，app的标准toast都是通过系统来发送的，禁掉app的TOAST_WINDOW权限并不会禁掉这类toast。
+也有app会发自定义样式的toast（也就是非标准样式toast），这类toast的发送者仍是app本身，所以可以正常禁掉。
+
+标准使用方法：
+在adb shell下使用appops命令
+1) 查看某个app的appops权限状态
+   appops get <packagename>
+   如获取QQ的appops权限状态： "appops get com.tencent.mobileqq"
+2) 设定某个app的某个appops权限至特定状态
+   appops set <packagename> <appops> <mode> 
+   mode 可选allow ignore deny和default。通常使用场景下都是要禁止某个权限的，优先使用ignore，如果ignore不起作用可以试一下deny。
+   如果要恢复用allow和default都可以，建议在改之前先get一下然后记住默认的状态是啥。
+   如禁止QQ读取剪贴版的权限： "appops set com.tencent.mobileqq READ_CLIPBOARD ignore"
+3) 查询所有具有给定状态appops的app
+   appops query-op <appops> <mode>
+   如获取所有读取剪贴板权限为allow的app： "appops query-op READ_CLIPBOARD allow"
+
+appops的更改都是即时生效的，并且重启也不会改变状态，无需root权限。

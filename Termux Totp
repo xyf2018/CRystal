@@ -1,0 +1,19 @@
+已经有人向Termux-Api提交了pull requests，以支持Keystore的更多丰富功能，但暂时还未合入。
+我在本地使用GitHub Actions编译了新版，已经能够支持文件的加解密。
+这种情况下就可以将Totp的Secret加密保存，并且只能通过图案/PIN或生物识别来解密。比之前的明文保存要好太多。
+
+在每次重装Termux-Api后（仅猜测，暂时还不清楚升级Termux-Api会不会影响），配置过程都需要重新进行一遍，现在把配置过程记录下来。
+1）将明文secret数据库放到手机上
+2）termux-keystore generate <Alias> -bc -a AES -u 30
+   这一步是生成key，Alias是这个key的名字；参数b表示生物识别；c表示图案/PIN等，是生物识别不可用时的后备方案；a指定了算法，这里使用AES；
+   u指定了身份验证通过后的免验证时间，以秒为单位。建议设置成30秒，即30秒内无需重复验证身份
+3）termux-keystore encrypt <Alias> -q -p <path> -s <name>
+   这一步是加密数据库，Alias就是刚刚生成的key的名字；参数q表示不需要输出加密后的结果；p指定了明文数据库的路径；
+   s指定了这个加密项的名字，因为一个key下可以加密多个项目，需要有一个名字来区分他们
+4）在Totp脚本中将<Alias>修改为刚生成key的名字，测试没问题后就可以把明文数据库删掉了
+
+备注：Totp脚本中的解密命令为
+   termux-keystore decrypt <Alias> -s <name>
+   这一步是解密数据库，Alias就是刚刚生成的key的名字；s就是加密步骤中加密项的名字
+   
+由于该功能还未正式合入，随时有可能发生更改。

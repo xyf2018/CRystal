@@ -1,9 +1,4 @@
 在Termux上安装Python的Cryptography包：
 
   pkg install python，安装好Python3
-  pip install cryptography，会报错提示未安装Rust。
-  pkg install rust，安装好rust相关文件，这部分需要几百兆的空间，不过在安装好Cryptography后可以卸掉。
-  pip install cryptography，会报错提示 Don't know the correct rust target for system type aarch64-unknown-linux-android. Please set the CARGO_BUILD_TARGET environment variable.
-  export CARGO_BUILD_TARGET=aarch64-linux-android 命令，设定好正确的 CARGO_BUILD_TARGET。
-  pip install cryptography，终于安装成功。
-  pkg remove rust，释放几百兆空间。
+  pkg install python-cryptography，直接安装即可

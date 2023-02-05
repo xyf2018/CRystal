@@ -6,6 +6,11 @@
 百度地图 com.baidu.BaiduMap Play商店 15.12.0 支持直接启动Activity
   开屏广告 data/data/com.baidu.BaiduMap/files/splash
 
+百度地图 com.baidu.BaiduMap 国内版 17.1.0 支持直接启动Acticity 不能完全屏蔽掉，可能是网络直接加载
+  开屏广告 data/data/com.baidu.BaiduMap/files/splash
+    开屏广告 Android/data/com.baidu.BaiduMap/files/bddownload/img_download
+  推广动图 Android/data/com.baidu.BaiduMap/BaiduMap/cache/AdvertImageCache
+
 微博 com.sina.weibo Play商店 12.11.1 支持直接启动Activity
   开屏广告 data/data/com.sina.weibo/files/sina/weibo/.wbadcache
 

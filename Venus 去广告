@@ -8,7 +8,7 @@
 
 百度地图 com.baidu.BaiduMap 国内版 17.1.0 支持直接启动Acticity 不能完全屏蔽掉，可能是网络直接加载
   开屏广告 data/data/com.baidu.BaiduMap/files/splash
-    开屏广告 Android/data/com.baidu.BaiduMap/files/bddownload/img_download
+  开屏广告 Android/data/com.baidu.BaiduMap/files/bddownload/img_download
   推广动图 Android/data/com.baidu.BaiduMap/BaiduMap/cache/AdvertImageCache
 
 微博 com.sina.weibo Play商店 12.11.1 支持直接启动Activity
@@ -16,3 +16,6 @@
 
 豆瓣 com.douban.frodo Play商店 7.5.0 支持通过URL Scheme直接启动到书影音Tab
   开屏广告 data/data/com.douban.frodo/cache/douban_ad
+
+招商银行 cmb.pb 国内版 11.1.0 开屏和主Activity为同一Activity
+  开屏广告 Android/data/cmb.pb/files/cmb830/MarketingPath/file/MPPic

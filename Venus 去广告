@@ -19,3 +19,6 @@
 
 招商银行 cmb.pb 国内版 11.1.0 开屏和主Activity为同一Activity
   开屏广告 Android/data/cmb.pb/files/cmb830/MarketingPath/file/MPPic
+
+高德地图 com.autonavi.minimap Play商店 12.00.6.1084 支持直接启动Activity
+  开屏广告 data/data/com.autonavi.minimap/files/splash

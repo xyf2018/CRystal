@@ -2,9 +2,6 @@
   hosts方式维护比较麻烦，而且鉴于现在使用的app并不是很多，以后不再考虑。
   主要使用“直接启动主Activity”和“限制广告文件夹权限”两种方式，这两种方法通常需要配合使用。
   此文件就用来记录出现“开屏广告”的应用以及它们的广告文件夹。
-  
-百度地图 com.baidu.BaiduMap Play商店 15.12.0 支持直接启动Activity
-  开屏广告 data/data/com.baidu.BaiduMap/files/splash
 
 百度地图 com.baidu.BaiduMap 国内版 17.1.0 支持直接启动Acticity 不能完全屏蔽掉，可能是网络直接加载
   开屏广告 data/data/com.baidu.BaiduMap/files/splash
@@ -14,11 +11,12 @@
 微博 com.sina.weibo Play商店 12.11.1 支持直接启动Activity
   开屏广告 data/data/com.sina.weibo/files/sina/weibo/.wbadcache
 
-豆瓣 com.douban.frodo Play商店 7.5.0 支持通过URL Scheme直接启动到书影音Tab
-  开屏广告 data/data/com.douban.frodo/cache/douban_ad
-
 招商银行 cmb.pb 国内版 11.1.0 开屏和主Activity为同一Activity
   开屏广告 Android/data/cmb.pb/files/cmb830/MarketingPath/file/MPPic
 
 高德地图 com.autonavi.minimap Play商店 12.00.6.1084 支持直接启动Activity
   开屏广告 data/data/com.autonavi.minimap/files/splash
+
+滴滴出行 com.sdu.didi.psnger 国内版 6.5.14 支持通过URL Scheme跳过开屏广告
+  开屏广告 data/data/com.sdu.didi.psnger/cache/image_manager_disk_cache
+  此文件夹除了存放开屏图以外，也存放App内使用的图片资源，故不能屏蔽

@@ -17,6 +17,6 @@
 高德地图 com.autonavi.minimap Play商店 12.00.6.1084 支持直接启动Activity
   开屏广告 data/data/com.autonavi.minimap/files/splash
 
-滴滴出行 com.sdu.didi.psnger 国内版 6.5.14 支持通过URL Scheme跳过开屏广告
+滴滴出行 com.sdu.didi.psnger 国内版 6.5.14
   开屏广告 data/data/com.sdu.didi.psnger/cache/image_manager_disk_cache
   此文件夹除了存放开屏图以外，也存放App内使用的图片资源，故不能屏蔽

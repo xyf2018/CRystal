@@ -14,4 +14,4 @@ jobs:
         with:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           to: ${{ secrets.TELEGRAM_TO }}
-          message: '${{ github.event.issue }}'
+          message: '${{ toJson(github.event) }}'

@@ -1,9 +1,9 @@
 name: Telegram-Msg
 on:
   workflow_dispatch:
-  issue_comment:
+  issues:
     types:
-      - created
+      - edited
 
 jobs:
   send-message:
@@ -14,4 +14,4 @@ jobs:
         with:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           to: ${{ secrets.TELEGRAM_TO }}
-          message: '${{ github.event.comment }}'
+          message: '${{ github.event.issue }}'

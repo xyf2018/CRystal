@@ -1,6 +1,9 @@
 name: Telegram-Msg
 on:
   workflow_dispatch:
+  issue_comment:
+    types:
+      - created
 
 jobs:
   send-message:
@@ -11,4 +14,4 @@ jobs:
         with:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           to: ${{ secrets.TELEGRAM_TO }}
-          message: 'This is a test message from GitHub Actions!'
+          message: '${{ github.event.comment }}'

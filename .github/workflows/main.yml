@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send Telegram Message
-        uses: s00d/fast-telegram-action@v9
+        uses: s00d/fast-telegram-action@main
         with:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           to: ${{ secrets.TELEGRAM_TO }}
           message: '${{ github.event.body }}'
       - name: Delete comment
-        uses: detomarco/delete-comment@v1
+        uses: detomarco/delete-comment@main
         with:
           token: ${GITHUB_TOKEN}
           repository: xyf2018/CRystal

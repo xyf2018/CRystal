@@ -30,3 +30,7 @@
   一般不安装qq客户端，使用EFB转发
   
 7.曾在 /DCIM 目录下见到过 /.tmfs 文件夹，不清楚在我这是谁生成的，但可确定和腾讯相关。不一定非得是鹅厂的app，如果app里使用了腾讯相关的组件也是有可能的
+
+8.支付宝
+  在/Documents 目录下生成 .19af23407bb8203dcc920c98bba56c32.obb 文件，文件大小为0；如果手机中没有/Documents 目录，则会在/Download 目录下生成同样的文件。触发该行为的条件不明确，我在本地也暂未实锤是支付宝所为，是根据该issue得知是支付宝: https://github.com/RikkaApps/StorageRedirect-assets/issues/4632
+  将应用放到安全文件夹独立空间中运行即可。

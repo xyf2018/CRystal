@@ -20,10 +20,9 @@
   在/Pictures 目录下生成/.gs_fs3 文件夹，文件夹内包含大量.jpg 文件
   一般用不到，也不安装淘宝app
 
-5.钉钉 com.alibaba.android.rimet Play商店版 6.5.27
-  高德地图 com.autonavi.minimap Play商店版 12.00.6.1084
-  在/Pictures 目录下生成/.gs 文件夹，文件夹内包含大量文件夹
-  创建同名文件可解决
+5.高德地图 com.autonavi.minimap Play商店版 15.07.0.1559
+  在/Pictures 目录下生成/.gs 和/.gs_fs0 文件夹
+  建议使用百度地图
 
 6.手机QQ com.tencent.mobileqq 8.9.20
   在/Documets 目录下生成/ringtone 文件夹，文件夹内包含大量文件夹
